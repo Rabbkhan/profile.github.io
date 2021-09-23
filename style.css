@@ -1,0 +1,344 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+}
+
+/*header style start here*/
+#wrapper{
+    position: fixed;
+    background-color:whitesmoke;
+
+    height: 85px;
+    width: 100%;
+  
+    
+   
+}
+#name-style{
+ margin-left: 50px;
+ padding: 20px 20px 0px 20px;
+ width: 150px;
+ padding-bottom: 5px;
+ font-size: x-large;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ color: rgb(110, 103, 100);
+/* box-shadow:6px 6px rgb(185, 196, 196); */
+box-shadow: 10px 20px 15px grey;
+
+border-radius: 7px;
+ 
+}
+#header-style{
+    position: relative;
+    left: 55%;
+    bottom: 20px;
+    display:flex;
+   text-align: center;
+   font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+   /* font-weight: lighter; */
+  
+
+}
+
+.rigth-header-style{
+    color: black;
+    margin:-3px 20px 0px 70px;
+    text-decoration: none;
+    box-shadow: 10px 10px 30px 10px grey;
+    height: 30px;
+    width: 80px;
+    border-radius: 7px;
+}
+.rigth-header-style:hover{
+    color: rgb(116, 111, 105);
+    
+}
+/*main section style start*/
+#main-wrapper{
+    background-color: rgb(121, 179, 179);
+height: 600px;
+
+}
+/* h3 style for main section text*/
+h3{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: xx-large;
+ font-weight: 400;
+padding: 100px 10px 10px 90px ;
+color:rgb(95, 85, 72);
+word-spacing: 4px;
+}
+/*social logo style*/
+
+#social-logo{
+    font-size: xx-large;
+    color: rgb(41, 70, 59);
+    padding: 10px 0px 0px 80px;
+    word-spacing: 15px;
+}
+/*main section right side image */
+#image-right{
+    
+    position: absolute;
+    top: 150px;
+    left: 70%;
+    bottom: 36%;
+    padding-top: 10px;
+    box-shadow:  20px 30px 15px grey;
+
+}
+#btn{
+    background-color: rgb(87, 117, 117);
+   color: whitesmoke;
+    font-size: x-large;
+    margin: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    /* border-bottom: rgb(88, 75, 58); */
+    width: 150px;
+    height: 50px;
+    /* border-top: bisque; */
+    border-radius: 80px;
+    
+
+}
+#btn:hover{
+    color: black;
+    background-color: rgb(74, 114, 101);
+}
+/* about section style*/
+#about-section{
+
+    background-color: rgb(203, 214, 214);
+    height: 600px;
+
+}
+#about-me{
+    text-decoration: underline;
+    color: rgb(82, 69, 47);
+    text-align: center;
+  
+   
+}
+#about-section-img{
+    margin-left: 50px;
+    margin-top: -30px;
+    box-shadow:10px 20px 20px 10px rgb(124, 100, 100);
+    width: 20%;
+    height: 50.5%;
+    border-radius: 5px;
+
+}
+
+#text-style{
+    
+    text-align:center;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -200px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    word-spacing: 2px;
+    
+}
+#btn-2{
+    background-color: rgb(81, 83, 78);
+   color: whitesmoke;
+    font-size: x-large;
+    margin: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    margin-left:700px;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+   
+    border-radius: 80px;
+    
+}
+#btn-2:hover{
+    background-repeat: repeat-x;
+    background-color: azure;
+    color: black;
+}
+/*sevices page design*/
+.services-provide{
+    background-color: azure;
+    height: 500px;
+    display: flex;
+    
+}
+#service-text{
+    text-align: center;
+    text-decoration: underline;
+    height: 40px;
+    background-color: azure;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    box-shadow:  10px 10px 5px rgb(82, 74, 74);
+    padding-top: 20px;
+
+}
+#service-logo{
+    font-size:70px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(145, 128, 116);
+
+}
+#service-card{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#text3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-left: 20px;
+
+}
+#web-dev, #web-app,#app-dev {
+    width: 30%;
+
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: azure;
+    box-shadow:  15px 15px 10px rgb(82, 74, 74);
+    border-radius: 15px;
+}
+/* contact section deisgn*/
+#contact-details{
+     background-color: rgb(228, 208, 183);
+     height: 450px;
+
+
+}
+#conatct-text-design{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 5px;
+    box-shadow:  10px 10px 5px rgb(82, 74, 74);
+
+    
+}
+#text-4{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    margin-left: 40%;
+    margin-top: 60px;
+}
+#btn-4{
+    background-color: rgb(81, 83, 78);
+    color: whitesmoke;
+     font-size: x-large;
+     margin: 110px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+     margin-left:700px;
+     margin-top: 40px;
+     width: 150px;
+     height: 50px;
+    
+     border-radius: 80px;
+}
+#btn-4:hover{
+    background-color: aliceblue;
+    color:rgb(71, 46, 46);
+}
+
+/*skills range code*/
+
+#skills{
+
+    display: flex;
+   background-color:white;
+    height: 700px;
+}
+#front-end{
+ 
+    margin-top: 50px;
+    background-color: aliceblue;
+    margin-bottom: 30px;  
+}
+#backend{
+   
+    text-align: center;
+    margin-top: 50px;
+    background-color: aliceblue;
+    margin-bottom: 30px; 
+}
+input[type=range]{
+    width: 300px;
+    height: 20px;
+   
+    
+}
+.both-style{
+    font-size: xx-large;
+    margin-left: 200px;
+    font-style: bold;
+    color: rgb(94, 65, 65);
+    box-shadow:  5px 10px 5px rgb(82, 74, 74);
+    text-align: center;
+    margin-top: 30px;
+   
+}
+/*footer style*/
+#footer{
+
+    background-color: black;
+    height: 400px;
+}
+
+
+/*footer menu*/
+.footer-menu{
+    display: block;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: -300px;
+    margin-top:20px; }
+
+    /*copy write section*/
+     #copy{
+    color: rgb(238, 216, 216);
+    margin-left: 80%;
+    font-size: 30px;}
+
+    /*input style*/
+   
+    /* input[type="email"]{
+        font-size: x-large;
+        width: 300px;
+        height: 35px;
+        background-color: antiquewhite;
+        box-shadow:  7px 5px 15px grey;
+        border-radius: 10px; }*/
+       
+       
+    
+    /* #btn-5{
+
+        color: rgb(129, 28, 28);
+        font-size: x-large;
+        background-color: bisque;
+        box-shadow:  7px 5px 15px rgb(82, 22, 22);
+        border-radius: 10px;
+        outline: none;
+        border: none; }*/
+
+
+    
